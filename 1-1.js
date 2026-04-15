@@ -1,7 +1,14 @@
 function test(chislo) {
-  if (chislo > 0) console.log("положительное");
-  else if (chislo < 0) console.log("отрицательное");
+  if (chislo > 0) {
+    console.log("положительное");
+    return;
+  }
+  if (chislo < 0) {
+    console.log("отрицательное");
+    return;
+  }
+  console.log("ноль");
 }
 
-test(7)
-test(-10)
+test(7);
+test(-10);
