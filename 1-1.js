@@ -6,5 +6,5 @@ else
     console.log('отрицательное')
 }
 
-test(5)
+test(7)
 test(-10)
