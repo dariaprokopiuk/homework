@@ -3,5 +3,5 @@ function test(chislo) {
   else if (chislo < 0) console.log("отрицательное");
 }
 
-test(5);
+test(2);
 test(-10);
