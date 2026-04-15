@@ -1,7 +1,14 @@
 function test(number) {
-  if (number > 0) console.log("положительное");
-  else if (number < 0) console.log("отрицательное");
+  if (number > 0) {
+    console.log("положительное");
+    return;
+  }
+  if (number < 0) {
+    console.log("отрицательное");
+    return;
+  }
+  console.log("ноль");
 }
 
-test(7)
-test(-10)
+test(7);
+test(-10);
