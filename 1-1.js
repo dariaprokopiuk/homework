@@ -1,9 +1,9 @@
-function test(chislo) {
-  if (chislo > 0) {
+function test(number) {
+  if (number > 0) {
     console.log("положительное");
     return;
   }
-  if (chislo < 0) {
+  if (number < 0) {
     console.log("отрицательное");
     return;
   }
